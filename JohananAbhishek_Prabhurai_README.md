@@ -11,7 +11,8 @@
 * URL: (https://csci5709-tutorials-pja.herokuapp.com/) 
 
 ## NOTE
-I tried adding the TAs to the git repo but was not able to find accounts based on provided Name/tags. Was only able to add the professor.
+I tried adding the TAs to the git repo but was not able to find accounts based on provided Name/tags. Was only able to add the professor. 
+I tried to update the components at the App.js level but was not able to. The idea was to make the registration page disappear after successfull submit.
 
 ## Authors
 
