@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Advanced Web Services (CSCI5709)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Application: (https://csci5709-tutorials-pja.herokuapp.com/)
+### Repository URL: https://github.com/JohananAP/tutorial3
 
-## Available Scripts
 
-In the project directory, you can run:
+# Tutorial 2 Code Management and Deployment
 
-### `npm start`
+* Date Created: 03 June 2021
+* Last Modification Date: 03 June 2021
+* URL: (https://csci5709-tutorials-pja.herokuapp.com/) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## NOTE
+I tried adding the TAs to the git repo but was not able to find accounts based on provided Name/tags. Was only able to add the professor.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Authors
 
-### `npm test`
+* Johanan Abhishek Prabhurai (jh416787@dal.ca)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Clone project from repository https://github.com/JohananAP/tutorial3.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Node.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installing
 
-### `npm run eject`
+* Open terminal 
+* cd to root directory which has the package.json file
+* Install the node modules: npm install
+* Start the Node server: npm start 
+* Open a new terminal 
+* Change the directory to markit to run the front end application
+* Install the node modules: npm install
+* Start the server: npm start 
+* Open http://localhost/ to view the application
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment
+Automatic deployment configured on heroku. 
+Branch deployed: main
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To manually deploy application to heroku 
+* Commit changes and push to repository 
+* set git remote heroku to https://github.com/csci5709-web-dev/group2.git
+* git push heroku main
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm run build
+```
 
-## Learn More
+## Instructors and TAs
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Gabriella Mosquera
+* Hari Arunachalam
+* Nikunj Goenka
+* Shehzeen Huda
+* Yash Jaiswal
+* Bala Sundeep Krishna Dasari
+* Kshitij Paithankar
+* Neharika Sehgal
+* Aadesh Shah
+* Suman Singh
