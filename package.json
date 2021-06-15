@@ -1,8 +1,8 @@
 {
-  "name": "socialbasic",
+  "name": "social",
   "version": "0.1.0",
   "private": true,
-   "engines": {
+  "engines": {
     "node": "14.x"
   },
   "dependencies": {
@@ -10,8 +10,8 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
-    "bootstrap": "^4.6.0",
-    "cors": "^2.8.5",
+    "bootstrap": "^5.0.1",
+    "install": "^0.13.0",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
