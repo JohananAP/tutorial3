@@ -1,22 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-import Profile from './Profile';
-import Form from './Form'
-import { useState } from 'react';
+import Login from './components/Login';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
+import Profile from './components/Profile';
 
 function App() {
-  const [Success, setSuccess] = useState(false);
-
-  const isSuccess = event => {
-    setSuccess(true);
-  }
-  console.log("App")
-  console.log(Success)
   return (
-    <div className="App">
-      {!isSuccess ? <Profile> </Profile> : (<Form submitForm={isSuccess}>  </Form>)}
-      {/* <Form submitForm={isSuccess}>  </Form> */}
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Login}></Route>
+        <Route path="/login" exact component={Login} ></Route>
+        <Route path="/profile/:id"><Profile/></Route>
+      </Switch>
+    </Router>
   );
 }
 

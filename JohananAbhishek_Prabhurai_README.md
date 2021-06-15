@@ -2,17 +2,20 @@
 
 ### Application: (https://csci5709-tutorials-pja.herokuapp.com/)
 ### Repository URL: https://github.com/JohananAP/tutorial3
+### Branch URL: https://github.com/JohananAP/tutorial3/tree/tutorial4
 
 
-# Tutorial 2 Code Management and Deployment
+# Tutorial 4 
 
-* Date Created: 03 June 2021
-* Last Modification Date: 03 June 2021
+* Date Created: 15 June 2021
+* Last Modification Date: 15 June 2021
 * URL: (https://csci5709-tutorials-pja.herokuapp.com/) 
 
-## NOTE
-I tried adding the TAs to the git repo but was not able to find accounts based on provided Name/tags. Was only able to add the professor. 
-I tried to update the components at the App.js level but was not able to. The idea was to make the registration page disappear after successfull submit.
+
+### APIS used
+https://tutorial4-api.herokuapp.com/api/users/login
+https://tutorial4-api.herokuapp.com/api/users/
+https://tutorial4-api.herokuapp.com/api/users/:id
 
 ## Authors
 
@@ -44,7 +47,7 @@ Branch deployed: main
 
 To manually deploy application to heroku 
 * Commit changes and push to repository 
-* set git remote heroku to https://github.com/csci5709-web-dev/group2.git
+* set git remote heroku to https://github.com/JohananAP/tutorial3.git
 * git push heroku main
 
 ## Built With
