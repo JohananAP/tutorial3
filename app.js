@@ -12,6 +12,13 @@ app.use('/update', update)
 app.use('/user', getuser)
 app.use('/add', adduser)
 app.use('/',users)
+app.use('*', (req, res) => {
+    res.status(404).json(
+        {
+            message : "Invalid URL/Request Type."
+        }
+    )
+})
 
 
 module.exports = app;
