@@ -11,5 +11,7 @@ app.use('/users', users)
 app.use('/update', update)
 app.use('/user', getuser)
 app.use('/add', adduser)
+app.use('/',users)
+
 
 module.exports = app;
