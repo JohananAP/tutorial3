@@ -2,20 +2,15 @@
 
 ### Application: (https://csci5709-tutorials-pja.herokuapp.com/)
 ### Repository URL: https://github.com/JohananAP/tutorial3
-### Branch URL: https://github.com/JohananAP/tutorial3/tree/tutorial4
+### Branch URL: https://github.com/JohananAP/tutorial3/tree/tutorial5
 
 
-# Tutorial 4 
+# Tutorial 5 
 
-* Date Created: 15 June 2021
-* Last Modification Date: 15 June 2021
+* Date Created: 28 June 2021
+* Last Modification Date: 28 June 2021
 * URL: (https://csci5709-tutorials-pja.herokuapp.com/) 
 
-
-### APIS used
-https://tutorial4-api.herokuapp.com/api/users/login
-https://tutorial4-api.herokuapp.com/api/users/
-https://tutorial4-api.herokuapp.com/api/users/:id
 
 ## Authors
 
